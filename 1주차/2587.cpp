@@ -12,7 +12,7 @@ int main()
         total += array[i];
     }
 
-    sort(array, array+5); //±âº»ÀûÀ¸·Î ¿À¸§ Â÷¼ø, sort(first, last, compare) => ºñ±³ ¿É¼Ç º¯°æÀ» À§ÇÑ ÇüÅÂ
+    sort(array, array+5); //ê¸°ë³¸ì ìœ¼ë¡œ ì˜¤ë¦„ ì°¨ìˆœ, sort(first, last, compare) => ë¹„êµ ì˜µì…˜ ë³€ê²½ì„ ìœ„í•œ í˜•íƒœ, compare falseë©´ swap
 
     cout << total / 5 << '\n' << array[2] << '\n';
 
